@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/reflection-lights-mountain-lake-captured-parco-ciani-lugano-switzerland_181624-24209.jpg?t=st=1717224985~exp=1717228585~hmac=c10b9e3aa7c3dc5f23b520e8ef1a007614955efa5ac6d466c5f8d51daa26774c&w=740);
+    background-color: #fff;
+    background-size: cover;
+    filter: grayscale(0.35);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.box {
+    height: 90%;
+    width: 40%;
+    /* border: 2px solid white; */
+    /* background-color: #fff; */
+    margin-left: 5%;
+    margin-top: 2.5%;
+    /* filter: blur(8px); */
+    position: relative;
+    display: inline-flex;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    /* border: 2px solid black; */
+    border-radius: 50px;
+
+}
+
+h1 {
+    position: absolute;
+    /* padding: 15%; */
+    color: #ffffff;
+    /* left: 27%; */
+    font-size: 4rem;
+    padding-top: 8%;
+    padding-left: 31%;
+}
+
+.div1>span {
+    position: absolute;
+    color: rgb(219, 243, 111);
+    top: 15%;
+    left: 35%;
+    font-size: 1.3rem;
+    margin-top: 8%;
+}
+
+form {
+    position: absolute;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    /* padding-bottom: 20px; */
+    width: 60%;
+    height: 100%;
+    margin: 5%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-left: 15%;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    padding: 25px;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 35px;
+    width: 100%;
+    /* padding-bottom: 15%; */
+}
+
+.button1>button {
+    background: none;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.button2>button {
+    background: none;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+
+.button3>button {
+    background: none;
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+
+.button4>button {
+    position: absolute;
+    top: 77%;
+    padding: 2% 15%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    transition: 0.75s;
+    border-radius: 50px;
+    border: none;
+}
+
+.button4 {
+    display: flex;
+    justify-content: center;
+}
+
+.button4>button:hover {
+    background-color: rgb(62, 217, 245);
+    outline: none;
+    border: none;
+}
+.button4>button:active{
+    filter: brightness(0.65);
+}
+a {
+    position: absolute;
+    left: 65%;
+    top: 70%;
+    color: white;
+    transition: 0.25s;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+a:active {
+    filter: brightness(0.65);
+}
+
+.sign>span{
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    /* margin-top: 70%; */
+    margin-left: 30%;
+}
+.sign>a{
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    /* margin-top: 70%; */
+    margin-left: -5%;
+}
+.sign>a:hover{
+    color: yellow;
+}
+h2{
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    font-size: 5rem;
+    color: #ffffff;
+    line-height: 70px;
+}
+.box2>p{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    font-size: 1.5rem;
+    color: #dedcf0;
+}
+.icons>img{
+    height: 20px;
+    width: 20px;
+}
+.icons{
+    margin-left: 50%;
+    margin-top: -4%;
+}
