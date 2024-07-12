@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body {
+    cursor: crosshair;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 6px solid red;
+    border-radius: 9999px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: +99;
+}
+.btn {
+    font-size: 2rem;
+    background-color: rgb(255, 59, 92);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 15px;
+    margin: 5px;
+}
+.btn:hover {
+    filter: brightness(0.8);
+}
+.btn:active {
+    filter: brightness(0.7);
+}
+.left {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.top {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#msg {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text
+    transition: all 0.2s ease-out;
+}
+#msg.warn {
+    color: red;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#msg.info {
+    color: rgb(255, 255, 124);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#info {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    margin: 5px;
+}
+#info span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
