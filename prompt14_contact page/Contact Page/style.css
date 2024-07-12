@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.bold {
+	font-size: 1.3rem !important;
+	font-family: 'Segoe UI', sans-serif !important;
+	font-weight: bold !important;
+	color: rgb(20, 20, 20) !important;
+}
+html {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: white;
+}
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 40%;
+	height: 100%;
+	position: relative;
+	background-color: white;
+}
+.left form {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	justify-content: center;
+	flex-direction: column;
+}
+.left .container {
+	animation: cftop 1s ease-out 0ms;
+	position: relative;
+	align-items: center;
+	overflow: auto;
+	padding: 40px 0;
+	justify-content: unset;
+}
+@keyframes cftop {
+	0% {
+		position: relative;
+		top: -100%;
+	}
+	100% {
+		position: relative;
+		top: 0;
+	}
+}
+.left form input {
+	border: none;
+	background-color: transparent;
+	color: black;
+	border-bottom: 3px solid rgb(220, 220, 220);
+	font-size: 1.3rem;
+	font-weight: 500;
+	font-family: 'Segoe UI', sans-serif;
+	padding: 10px 0;
+	outline: none;
+	width: 100% !important; 
+	transition: all 0.15s ease-out;
+}
+.left form #SubmitBtn{
+	width: 100%;
+	font-size: 1.3rem;
+	padding: 10px 10px;
+	background-color: rgb(40, 40, 40);
+	border: none;
+	border-radius: 8px;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: white;
+	cursor: pointer;
+	transition: all 0.15s ease-out;
+}
+.left form #SubmitBtn:hover {
+	filter: brightness(0.8);
+}
+.left form #SubmitBtn:active {
+	filter: brightness(0.5);
+}
+.left form input:hover {
+	border-bottom-color: transparent;
+}
+.left form input:hover::placeholder {
+	color: rgb(180, 180, 180);
+}
+.left form input:focus {
+	border-bottom-color: rgb(150, 150, 150);
+}
+.left form input::placeholder {
+	color: rgb(120, 120, 120);
+	font-weight: 400;
+}
+.left form .Number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.left form .Name {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 15px;
+}
+.left form div {
+	width: 100%;
+	margin: 7px 0;
+}
+.left form .Name #LastName {
+	width: 50%;
+}
+.left form .Name #FirstName {
+	width: 50%;
+}
+.left form .Number {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 15px;
+}
+.left form .NumOfEmploys {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 15px 0;
+}
+.right {
+	width: 58%;
+	height: 98%;
+	position: relative;
+	/* background-repeat: no-repeat; */
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	border-radius: 20px;
+	margin: 0 10px;
+	justify-content: center;
+	box-shadow: inset 0px 0px 80px rgba(0,0,0,0.5);
+	background-image: url('woman-5526483_640.jpg');
+}
+.right p {
+	width: 80%;
+	font-size: 1rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	bottom: 500px;
+	text-align: center;
+}
+.right .info {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin: 24px 32px;
+}
+.right .info span {
+	font-size: 1.2rem;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: normal;
+	color: white;
+}
+.right .info .bold {
+	color: white !important;
+	font-size: 1.4rem !important;
+	font-weight: 500 !important;
+}
+.left .infotop {
+	margin: 20px 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+.left .infotop p {
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	color: rgb(65,65,65);
+}
+.title {
+	font-size: 1.7rem;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: bold;
+	color: rgb(20, 20, 20);
+	text-transform: capitalize;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.dropdown {
+	border: none;
+	background-color: transparent;
+	color: black;
+	border-bottom: 3px solid rgb(220, 220, 220);
+	font-size: 1.3rem;
+	font-weight: 500;
+	font-family: 'Segoe UI', sans-serif;
+	padding: 8px 2px;
+	outline: none;
+	transition: all 0.15s ease-out;
+}
+.dropdown option {
+	color: black;
+	font-size: 1.3rem;
+	font-weight: 500;
+	font-family: 'Segoe UI', sans-serif;
+}
+.dropdown:focus {
+	border-bottom-color: rgb(150, 150, 150);
+}
+.dropdown:hover {
+	border-bottom-color: transparent;
+}
+.Radio {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 2px solid rgb(200,200,200);
+	padding: 14px;
+	border-radius: 12px;
+	position: relative;
+	margin: 8px 0;
+	cursor: pointer;
+	/* transition: all 0.15s ease-out; */
+}
+.radioIn {
+	display: none;
+}
+.radioIn:checked+.Radio {
+	border-color: rgb(20, 20, 20);
+}
+.radioIn:checked+.Radio .box {
+	background-color: rgb(20, 20, 20);
+}
+.radioIn:checked+.Radio .box img {
+	filter: invert(95%);
+}
+.Radio .box {
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 8px;
+	width: 50px;
+	padding: 2px 12px;
+	border-radius: 12px;
+	/* transition: all 0.15s ease-out; */
+}
+@media screen and (max-width: 892px) {
+	.right {
+		display: none;
+		margin: 0;
+		width: 0;
+		height: 0;
+		padding: 0;
+	}
+	.left {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 892px) {
+	.right {
+		width: 48%;
+	}
+	.right p {
+		font-size: 1.2rem;
+	}
+	.left {
+		width: 50%;
+	}
+}
+.Radio .desc {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 16px;
+	gap: 4px;
+	height: 100%;
+}
+.Radio .desc span {
+	font-size: 1.3rem;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: normal;
+	color: rgb(65,65,65);
+}
+.Radio .box img {
+	height: 45px;
+	/* transition: all 0.15s ease-out; */
+}
