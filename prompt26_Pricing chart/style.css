@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/08/16/32/keyboard-5017973_640.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    height: 72%;
+    width: 20%;
+    background: linear-gradient(rgb(2, 2, 78), rgb(3, 3, 117), blue);
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.container2{
+    height: 72%;
+    width: 20%;
+    background: linear-gradient(rgb(2, 2, 78), rgb(3, 3, 117), blue);
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.container3{
+    height: 72%;
+    width: 20%;
+    background: linear-gradient(rgb(2, 2, 78), rgb(3, 3, 117), blue);
+    margin: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+h5{
+    position: absolute;
+    top: 3%;
+    left: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    font-size: 15px;
+}
+
+h3{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    font-size: 15px;
+}
+
+h2{
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: gainsboro;
+    font-size: 15px;
+}
+
+span{
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: white;
+    background: linear-gradient(45deg, black, gray, white);
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+span1{
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: white;
+    background: linear-gradient(45deg, yellow, black, black);
+    position: absolute;
+    top: 5%;
+    right: 8%;
+}
+
+span2{
+    padding: 3px 10px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: white;
+    background: linear-gradient(45deg, black, gray, white);
+    position: absolute;
+    top: 5%;
+    right: 15%;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+    margin-top: 13px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: 0.65s;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+
