@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+}
+
+.clock{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/id/1889089970/video/luxurious-majestic-heaven-like-particle-bg-for-award-shows-honors-or-film-festivals.jpg?s=640x640&k=20&c=aoPskXBNnsjuZYsQUzfPKpru-tyPDx948-7fPlHDPk0=);
+    background-size: cover;
+}
+
+.clock-face{
+    height: 20rem;
+    width: 20rem;
+    border: 20px solid white;
+    background: linear-gradient(pink, purple, blue);
+    border-radius: 50%;
+    position: relative;
+}
+
+.hand{
+    height: 3px;
+    width: 120px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+}
+
+.second-hand{
+    height: 3px;
+    width: 120px;
+    background-color: rgb(18, 197, 221);
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour-hand{
+    width: 90px;
+    background-color: rgb(118, 247, 12);
+    position: absolute;
+    top: 50%;
+    left: 16%;
+}
+
+.minute-hand{
+    background-color: yellow;
+}
